@@ -1,5 +1,5 @@
 
-pollutantmean <- function(directory, id = 1:332) {
+complete <- function(directory, id = 1:332) {
   
   data <- data.frame()
   nobs <- data.frame(id=id,"nobs"=0)
